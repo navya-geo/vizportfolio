@@ -1,15 +1,36 @@
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Viz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            background-color: black;
+            color: azure;
+        }
+    </style>
 </head>
-
 <body>
-    
-    <img src="Flood (3).svg" alt="narrative">
-    
+    <h2>Information Visualization-2</h2>
+    <h3>Navya K George</h3>
+    <button onclick="openPage('exercise.html')">Exercise</button>
+    <button onclick="openPage('sketchnote.html')">Sketchnote</button>
+    <button onclick="openPage('project.html')">Project</button>
 
-
+    <script>
+        function openPage(page) {
+            window.location.href = page;
+        }
+    </script>
 </body>
 </html>
